@@ -82,8 +82,9 @@ p {
 #startedButton {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 	width: 150px;
+	margin-left: 30%;
 	padding: 10px;
 	font-size: 16px;
 }
@@ -95,14 +96,6 @@ p {
 
 #features, #about, #services, #product, #vision {
 	display: inline-block;
-}
-
-#features, #about {
-	width: 40%;
-}
-
-#features {
-	margin-right: 19%;
 }
 
 #services, #product {
@@ -128,7 +121,6 @@ p {
 }
 
 .innovation {
-	border: 1px solid DodgerBlue;
 	margin-top: 100px;
 	display: flex;
 }
@@ -141,7 +133,22 @@ p {
 }
 
 .box img {
-	width: 70%;
+	width: 80%;
+}
+
+.textSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.features {
+	width: 45%;
+}
+
+.about {
+
+	width: 45%;
 }
 
 .intro {
@@ -156,8 +163,7 @@ p {
 
 
 .middle-img {
-	display: block;
-	margin: 50px 0;
+	display: flex;
 	width: 100%;
 }
 
