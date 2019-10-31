@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,18 +49,128 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 2.5% 7%;
+}
+
+nav {
+	display: inline-block;
+	width: 70%;
+	margin-right: 200px;
+
+}
+
+p {
+	font-size: 18px;
+}
+
+#startedButton {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 150px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#copyright {
+	display: block;
+	text-align: center;
+}
+
+#features, #about, #services, #product, #vision {
+	display: inline-block;
+}
+
+#features, #about {
+	width: 40%;
+}
+
+#features {
+	margin-right: 19%;
+}
+
+#services, #product {
+	margin-right: 4%;
+}
+
+#services, #product, #vision {
+	width: 30%;
+	padding-bottom: 80px;
+}
+
+.topLinks {
+	display: flex;
+
+	font-size: 24px;
+
+	justify-content: space-between;
+}
+
+.topLinks a {
+	color: grey;
+	text-decoration: none;
+}
+
+.innovation {
+	border: 1px solid DodgerBlue;
+	margin-top: 100px;
+	display: flex;
+}
+
+.box{
+	display: flex;
+	text-align: center;
+	width: 41%;
+	height: 450px;
+}
+
+.box img {
+	width: 70%;
+}
+
+.intro {
+	display: inline-block;
+	margin-right: 200px;
+	padding: 2% 2%;
+	height: 450px;
+	width: 40%;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+.middle-img {
+	display: block;
+	margin: 50px 0;
+	width: 100%;
+}
+
+.textAreaOne {
+	display:inline-block;
+	width: 47%;
+}
+
+h1 {
+	font-size: 100px;
+	padding-bottom: 50px;
+}
+
+img {
+	display: inline-block;
+}
