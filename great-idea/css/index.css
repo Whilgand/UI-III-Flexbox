@@ -138,7 +138,6 @@ p {
 	flex-direction: column;
 	align-items: center;
 	width: 17%;
-
 	font-size: 16px;
 }
 
@@ -171,4 +170,95 @@ p {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 4%;
+}
+
+.services-header-img {
+	display: flex;
+	width: 100%;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+}
+
+.services h2 {
+	display: flex;
+	font-size: 30px;
+}
+
+.segmentOne {
+	display: flex;
+	justify-content: space-evenly;
+	height: 30%;
+	width: 40%;
+	margin-top: 5%;
+}
+.segmentTwo {
+	display: flex;
+	justify-content: space-evenly;
+	height: 30%;
+	width: 40%;
+	margin-top: 5%;
+}
+.segmentThree {
+	display: flex;
+	justify-content: space-evenly;
+	height: 30%;
+	width: 40%;
+	margin-top: 5%;
+}
+.segmentFour {
+	display: flex;
+	justify-content: space-evenly;
+	height: 30%;
+	width: 40%;
+	margin-top: 5%;
+}
+
+.digitalDesign {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: LightGrey;
+	margin-right: 5%;
+}
+
+.uxui {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: LightGrey;
+}
+
+.digitalMarketing {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: LightGrey;
+	margin-right: 5%;
+}
+
+.webDev {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: LightGrey;
+	margin-right: 5%;
+}
+
+.iosDev {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: LightGrey;
+	margin-right: 5%;
+}
+
+.androidDev {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: LightGrey;
+	margin-right: 5%;
 }
