@@ -75,18 +75,13 @@ nav {
 
 }
 
-p {
-	font-size: 18px;
+h1 {
+	font-size: 100px;
+	padding-bottom: 50px;
 }
 
-#startedButton {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 150px;
-	margin-left: 30%;
-	padding: 10px;
-	font-size: 16px;
+p {
+	font-size: 18px;
 }
 
 #copyright {
@@ -94,17 +89,8 @@ p {
 	text-align: center;
 }
 
-#features, #about, #services, #product, #vision {
-	display: inline-block;
-}
-
-#services, #product {
-	margin-right: 4%;
-}
-
-#services, #product, #vision {
-	width: 30%;
-	padding-bottom: 80px;
+#contact {
+	margin-top: 4%;
 }
 
 .topLinks {
@@ -136,29 +122,42 @@ p {
 	width: 80%;
 }
 
+.intro {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 2%;
+	margin-right: 20%;
+}
+
+.intro Button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 17%;
+
+	font-size: 16px;
+}
+
 .textSection {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.features {
-	width: 45%;
+.textSectionChild{
+	display: flex;
+	flex-direction: column;
+	margin-right: 3%;
+	margin-bottom: 4%;
 }
 
 .about {
 
 	width: 45%;
-}
-
-.intro {
-	display: inline-block;
-	margin-right: 200px;
-	padding: 2% 2%;
-	height: 450px;
-	width: 40%;
-	text-align: center;
-	vertical-align: top;
 }
 
 
@@ -167,16 +166,9 @@ p {
 	width: 100%;
 }
 
-.textAreaOne {
-	display:inline-block;
-	width: 47%;
-}
-
-h1 {
-	font-size: 100px;
-	padding-bottom: 50px;
-}
-
-img {
-	display: inline-block;
+.textSectionTwo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 4%;
 }
